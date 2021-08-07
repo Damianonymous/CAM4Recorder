@@ -14,9 +14,9 @@ Python 3.5 or newer https://www.python.org/downloads/release/python-362/
 to install the required modules, run: (For Debain/Ubuntu)
 ```
 sudo apt-install update && sudo apt install upgrade
-sudo apt-install python3-pip && sudo pip3 install livestreamer && sudo apt-get install git
+sudo apt-install python3-pip && sudo pip3 install streamlink && sudo apt-get install git
 cd /home/yourusername
-git clone https://github.com/beaston02/CAM4Recorder
+git clone https://github.com/Damianonymous/CAM4Recorder
 cd CAM4Recorder
 (Optional) sudo apt-install gitclone && sudo apt-install ffmpeg
 ```
@@ -26,10 +26,10 @@ to install the required modules, run: (For CentOS/Red Hat/Fedora)
 yum update
 yum upgrade
 yum python3-pip
-pip3 install livestreamer
+pip3 install streamlink
 yum install git clone
 cd /home/yourusername
-git clone https://github.com/beaston02/CAM4Recorder
+git clone https://github.com/Damianonymous/CAM4Recorder
 cd CAM4Recorder
 (Optional) yum install ffmpeg
 ```
@@ -38,9 +38,9 @@ to install required modules, run: (For Arch Linux, Antergos, Manjaro, etc.)
 ```
 pacman -Syuu
 pacman -S python-pip git
-pip install livestreamer
+pip install streamlink
 cd /home/yourusername
-git clone https://github.com/beaston02/CAM4Recorder
+git clone https://github.com/Damianonymous/CAM4Recorder
 cd CAM4Recorder
 (Optional maybe Feature releases?) sudo apt-install ffmpeg
 
